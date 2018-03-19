@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C984A682FF0C9BF34282DF6 /* libPods-数据库自动更新.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6B426F2441FDDCCAD44B7B /* libPods-数据库自动更新.a */; };
+		6EAE95892046766B0075AE31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE95882046766B0075AE31 /* AppDelegate.m */; };
+		6EAE958C2046766B0075AE31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE958B2046766B0075AE31 /* ViewController.m */; };
+		6EAE958F2046766B0075AE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAE958D2046766B0075AE31 /* Main.storyboard */; };
+		6EAE95912046766B0075AE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAE95902046766B0075AE31 /* Assets.xcassets */; };
+		6EAE95942046766B0075AE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAE95922046766B0075AE31 /* LaunchScreen.storyboard */; };
+		6EAE95972046766B0075AE31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE95962046766B0075AE31 /* main.m */; };
+		6EAE95B7204678CB0075AE31 /* MessageFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE95AA204678CB0075AE31 /* MessageFMDB.m */; };
+		6EAE95B8204678CB0075AE31 /* MessageToolData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE95AB204678CB0075AE31 /* MessageToolData.m */; };
+		6EAE95B9204678CB0075AE31 /* handleMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE95AF204678CB0075AE31 /* handleMessage.m */; };
+		6EAE95BF20467A0E0075AE31 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE95BE20467A0E0075AE31 /* People.m */; };
+		6EAE95C220467A220075AE31 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE95C120467A220075AE31 /* Car.m */; };
+		6EAE95C520467A510075AE31 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE95C420467A510075AE31 /* House.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EAE95842046766A0075AE31 /* 数据库自动更新.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "数据库自动更新.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EAE95872046766B0075AE31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EAE95882046766B0075AE31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EAE958A2046766B0075AE31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EAE958B2046766B0075AE31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EAE958E2046766B0075AE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EAE95902046766B0075AE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EAE95932046766B0075AE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EAE95952046766B0075AE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EAE95962046766B0075AE31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EAE95AA204678CB0075AE31 /* MessageFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageFMDB.m; sourceTree = "<group>"; };
+		6EAE95AB204678CB0075AE31 /* MessageToolData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageToolData.m; sourceTree = "<group>"; };
+		6EAE95AC204678CB0075AE31 /* handleMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handleMessage.h; sourceTree = "<group>"; };
+		6EAE95AD204678CB0075AE31 /* MessageToolData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageToolData.h; sourceTree = "<group>"; };
+		6EAE95AE204678CB0075AE31 /* MessageFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageFMDB.h; sourceTree = "<group>"; };
+		6EAE95AF204678CB0075AE31 /* handleMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = handleMessage.m; sourceTree = "<group>"; };
+		6EAE95BD20467A0E0075AE31 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		6EAE95BE20467A0E0075AE31 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		6EAE95C020467A220075AE31 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		6EAE95C120467A220075AE31 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		6EAE95C320467A510075AE31 /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		6EAE95C420467A510075AE31 /* House.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		7D6B426F2441FDDCCAD44B7B /* libPods-数据库自动更新.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-数据库自动更新.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94049D629A1D08ADBF5E16B9 /* Pods-数据库自动更新.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据库自动更新.debug.xcconfig"; path = "Pods/Target Support Files/Pods-数据库自动更新/Pods-数据库自动更新.debug.xcconfig"; sourceTree = "<group>"; };
+		A5BD45641509315F0FB68F84 /* Pods-数据库自动更新.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据库自动更新.release.xcconfig"; path = "Pods/Target Support Files/Pods-数据库自动更新/Pods-数据库自动更新.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EAE95812046766A0075AE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C984A682FF0C9BF34282DF6 /* libPods-数据库自动更新.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0DD4D75F184CDBCB4B7557 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D6B426F2441FDDCCAD44B7B /* libPods-数据库自动更新.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6467739789F2CC0CE9CCC8F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94049D629A1D08ADBF5E16B9 /* Pods-数据库自动更新.debug.xcconfig */,
+				A5BD45641509315F0FB68F84 /* Pods-数据库自动更新.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EAE957B2046766A0075AE31 = {
+			isa = PBXGroup;
+			children = (
+				6EAE95862046766A0075AE31 /* 数据库自动更新 */,
+				6EAE95852046766A0075AE31 /* Products */,
+				6467739789F2CC0CE9CCC8F6 /* Pods */,
+				1C0DD4D75F184CDBCB4B7557 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EAE95852046766A0075AE31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EAE95842046766A0075AE31 /* 数据库自动更新.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EAE95862046766A0075AE31 /* 数据库自动更新 */ = {
+			isa = PBXGroup;
+			children = (
+				6EAE95A8204678CB0075AE31 /* DataCache */,
+				6EAE95872046766B0075AE31 /* AppDelegate.h */,
+				6EAE95882046766B0075AE31 /* AppDelegate.m */,
+				6EAE958A2046766B0075AE31 /* ViewController.h */,
+				6EAE958B2046766B0075AE31 /* ViewController.m */,
+				6EAE958D2046766B0075AE31 /* Main.storyboard */,
+				6EAE95902046766B0075AE31 /* Assets.xcassets */,
+				6EAE95922046766B0075AE31 /* LaunchScreen.storyboard */,
+				6EAE95952046766B0075AE31 /* Info.plist */,
+				6EAE95962046766B0075AE31 /* main.m */,
+			);
+			path = "数据库自动更新";
+			sourceTree = "<group>";
+		};
+		6EAE95A8204678CB0075AE31 /* DataCache */ = {
+			isa = PBXGroup;
+			children = (
+				6EAE95A9204678CB0075AE31 /* Tools */,
+				6EAE95B0204678CB0075AE31 /* CacheModel */,
+			);
+			path = DataCache;
+			sourceTree = "<group>";
+		};
+		6EAE95A9204678CB0075AE31 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6EAE95AD204678CB0075AE31 /* MessageToolData.h */,
+				6EAE95AB204678CB0075AE31 /* MessageToolData.m */,
+				6EAE95AE204678CB0075AE31 /* MessageFMDB.h */,
+				6EAE95AA204678CB0075AE31 /* MessageFMDB.m */,
+				6EAE95AC204678CB0075AE31 /* handleMessage.h */,
+				6EAE95AF204678CB0075AE31 /* handleMessage.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6EAE95B0204678CB0075AE31 /* CacheModel */ = {
+			isa = PBXGroup;
+			children = (
+				6EAE95BD20467A0E0075AE31 /* People.h */,
+				6EAE95BE20467A0E0075AE31 /* People.m */,
+				6EAE95C020467A220075AE31 /* Car.h */,
+				6EAE95C120467A220075AE31 /* Car.m */,
+				6EAE95C320467A510075AE31 /* House.h */,
+				6EAE95C420467A510075AE31 /* House.m */,
+			);
+			path = CacheModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EAE95832046766A0075AE31 /* 数据库自动更新 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EAE959A2046766B0075AE31 /* Build configuration list for PBXNativeTarget "数据库自动更新" */;
+			buildPhases = (
+				B62B99B5133A369B368FF67B /* [CP] Check Pods Manifest.lock */,
+				6EAE95802046766A0075AE31 /* Sources */,
+				6EAE95812046766A0075AE31 /* Frameworks */,
+				6EAE95822046766A0075AE31 /* Resources */,
+				6BE72395FD1E75CE6FC7BDE5 /* [CP] Embed Pods Frameworks */,
+				5B6733636498B51AEC59CB9E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数据库自动更新";
+			productName = "数据库自动更新";
+			productReference = 6EAE95842046766A0075AE31 /* 数据库自动更新.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EAE957C2046766A0075AE31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "张鹏";
+				TargetAttributes = {
+					6EAE95832046766A0075AE31 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6EAE957F2046766A0075AE31 /* Build configuration list for PBXProject "数据库自动更新" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EAE957B2046766A0075AE31;
+			productRefGroup = 6EAE95852046766A0075AE31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EAE95832046766A0075AE31 /* 数据库自动更新 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EAE95822046766A0075AE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAE95942046766B0075AE31 /* LaunchScreen.storyboard in Resources */,
+				6EAE95912046766B0075AE31 /* Assets.xcassets in Resources */,
+				6EAE958F2046766B0075AE31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B6733636498B51AEC59CB9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-数据库自动更新/Pods-数据库自动更新-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE72395FD1E75CE6FC7BDE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-数据库自动更新/Pods-数据库自动更新-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B62B99B5133A369B368FF67B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-数据库自动更新-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EAE95802046766A0075AE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAE95C220467A220075AE31 /* Car.m in Sources */,
+				6EAE958C2046766B0075AE31 /* ViewController.m in Sources */,
+				6EAE95B9204678CB0075AE31 /* handleMessage.m in Sources */,
+				6EAE95BF20467A0E0075AE31 /* People.m in Sources */,
+				6EAE95972046766B0075AE31 /* main.m in Sources */,
+				6EAE95B8204678CB0075AE31 /* MessageToolData.m in Sources */,
+				6EAE95C520467A510075AE31 /* House.m in Sources */,
+				6EAE95B7204678CB0075AE31 /* MessageFMDB.m in Sources */,
+				6EAE95892046766B0075AE31 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EAE958D2046766B0075AE31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EAE958E2046766B0075AE31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EAE95922046766B0075AE31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EAE95932046766B0075AE31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EAE95982046766B0075AE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EAE95992046766B0075AE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EAE959B2046766B0075AE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94049D629A1D08ADBF5E16B9 /* Pods-数据库自动更新.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "数据库自动更新/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "peter.zhang.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EAE959C2046766B0075AE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BD45641509315F0FB68F84 /* Pods-数据库自动更新.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "数据库自动更新/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "peter.zhang.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EAE957F2046766A0075AE31 /* Build configuration list for PBXProject "数据库自动更新" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EAE95982046766B0075AE31 /* Debug */,
+				6EAE95992046766B0075AE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EAE959A2046766B0075AE31 /* Build configuration list for PBXNativeTarget "数据库自动更新" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EAE959B2046766B0075AE31 /* Debug */,
+				6EAE959C2046766B0075AE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EAE957C2046766A0075AE31 /* Project object */;
+}

@@ -1,0 +1,10 @@
+#平台工程版本
+platform :ios, '8.0'
+target '数据库自动更新' do
+#消除警告
+inhibit_all_warnings!
+
+#数据库
+pod 'FMDB', '~> 2.6.2'
+
+end
